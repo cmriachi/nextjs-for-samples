@@ -9,6 +9,7 @@ on:
     branches:
       - canary
       - test
+      - branch-preview
 
 jobs:
   build_and_deploy_job:
