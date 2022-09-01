@@ -4,6 +4,8 @@ on:
   push:
     branches:
       - canary
+      - test
+      - branch-preview
   pull_request:
     types: [opened, synchronize, reopened, closed]
     branches:
